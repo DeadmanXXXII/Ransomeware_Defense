@@ -31,7 +31,7 @@ Using these defense systems, you can test their legitimacy on a cloud resource t
      python3 Labyrinth_keys_generatorV6.py
      ```
 
-   - Both terminals should display the same encryption key.
+   - The IP address you set in Chaveiros.py will have collected a key. You will also see an encryption key in fernet on the terminal you ran the key generator on.
 
    - Note: `Chaveiros.py` was built from the reverse engineering of six pieces of ransomware. Where it says "attacker IP," it means the IP address to which you want the encryption key sent.
 
