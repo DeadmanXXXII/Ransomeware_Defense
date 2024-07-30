@@ -45,7 +45,7 @@ The ransomware should have activated. Creating an encryption key and sending it 
 With the ransomware active files are encrypted and a note sent to the ransomware attacker machine confirming correct targeting and attack success.
 
 5. **With your sent off key**
-from the defense system, decrypt your infected machine back to normal working order and block the IP address from making uploads.
+from the defense system, decrypt your infected machine back to normal working order using De-ransomeware.py and block the IP address from making uploads.
 Add the ransomware sample to the defense system code sequences to block.
 
 ### Lab complete.
