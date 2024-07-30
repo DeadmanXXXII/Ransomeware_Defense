@@ -40,7 +40,19 @@ Using these defense systems, you can test their legitimacy on a cloud resource t
    - Use SSH to access the victim machine from the attacker machine.
    - Alter the attack source, change the file appendage, and upload.
 
-4. **Legal and Logging Considerations**:
+4. **Back at your victim machine** 
+The ransomware should have activated. Creating an encryption key and sending it to the IP delegated in Chaveiros.py. 
+With the ransomware active files are encrypted and a note sent to the ransomware attacker machine confirming correct targeting and attack success.
+
+5. **With your sent off key**
+from the defense system, decrypt your infected machine back to normal working order and block the IP address from making uploads.
+Add the ransomware sample to the defense system code sequences to block.
+
+### Lab complete.
+
+
+
+6. **Legal and Logging Considerations**:
    - Adding all users performing the lab as collaborators on the GitHub repository for legal logging. 
    - This information will be provided if warranted.
 
