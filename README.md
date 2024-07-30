@@ -40,13 +40,17 @@ Using these defense systems, you can test their legitimacy on a cloud resource t
    - Use SSH to access the victim machine from the attacker machine.
    - Alter the attack source, change the file appendage, and upload.
 
-4. **Back at your victim machine** 
-The ransomware should have activated. Creating an encryption key and sending it to the IP delegated in Chaveiros.py. 
-With the ransomware active files are encrypted and a note sent to the ransomware attacker machine confirming correct targeting and attack success.
+4. **Back at your victim machine**
+   - The ransomware should have activated. 
+Creating an encryption key and sending it to the IP delegated in Chaveiros.py.
+ 
+   - With the ransomware active files are encrypted and a note sent to the ransomware attacker machine confirming correct targeting and attack success.
 
 5. **With your sent off key**
-from the defense system, decrypt your infected machine back to normal working order using De-ransomeware.py and block the IP address from making uploads.
-Add the ransomware sample to the defense system code sequences to block.
+
+   - From the defense system, decrypt your infected machine back to normal working order using De-ransomeware.py and block the IP address from making uploads.
+
+   - Add the ransomware sample to the defense system code sequences to block.
 
 ### Lab complete.
 
@@ -57,4 +61,5 @@ Add the ransomware sample to the defense system code sequences to block.
    - This information will be provided if warranted.
 
 This setup ensures a safe environment for testing ransomware defenses without risking damage to personal or company equipment.
+
 The cloud instances I have recommended I know can be recycled easily without undue costs to linode. I have trashed countless machines and restarted them and they are ok.
