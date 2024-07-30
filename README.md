@@ -48,7 +48,9 @@ Creating an encryption key and sending it to the IP delegated in Chaveiros.py.
 
 5. **With your sent off key**
 
-   - From the defense system, decrypt your infected machine back to normal working order using De-ransomeware.py and block the IP address from making uploads.
+   - From the defense system, decrypt your infected machine back to normal working order using De-ransomeware.py.
+
+   - Block the IP address from making uploads.
 
    - Add the ransomware sample to the defense system code sequences to block.
 
