@@ -37,7 +37,7 @@ Using these defense systems, you can test their legitimacy on a cloud resource t
 
 3. **Setup Attacker Machine**:
    - Use Kali or Parrot OS for the attacker machine.
-   - Request access to the private repository for legal logging: [GitHub Repository](https://github.com/DeadmanXXXII/Ransomeware).
+   - Request access to the private repository for legal logging: [Ransomware](https://github.com/DeadmanXXXII/Ransomeware).
    - Prepare to upload ransomware samples as `.txt` files.
    - Double-check IP addresses to ensure correct targeting and avoid legal issues.
    - Use SSH to access the victim machine from the attacker machine.
