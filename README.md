@@ -1,10 +1,3 @@
-# Ransomeware_Defense
-
-## These scripts are for catching encryption keys made on a system and sending them off network.
-
-This has been derived from the same system ransomware uses. When the key is generrated in a readable logic it sends one to the CISO's phone if they wish.
-Stay one step ahead have a key catcher.
-
 ## Ransomware Defense Lab 1
 
 Using these defense systems, you can test their legitimacy on a cloud resource to avoid damaging your own equipment.
@@ -38,7 +31,7 @@ Using these defense systems, you can test their legitimacy on a cloud resource t
 3. **Setup Attacker Machine**:
    - Use Kali or Parrot OS for the attacker machine.
    - Request access to the private repository for legal logging: [Ransomware](https://github.com/DeadmanXXXII/Ransomeware).
-   - Prepare to upload ransomware samples as `.txt` files.
+   - Prepare to upload ransomware samples as `.txt` files. (choices are a basic Conti, Rhysida or my own TMHPransomware the others are not available in this lab.)
    - Double-check IP addresses to ensure correct targeting and avoid legal issues.
    - Use SSH to access the victim machine from the attacker machine.
    - Alter the attack source, change the file appendage, and upload.
