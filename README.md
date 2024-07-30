@@ -1,5 +1,9 @@
 ## Ransomware Defense Lab 1
 
+Our custom, unique, and awesome Ransomware defense lab is now live
+
+This highly advanced home lab requires expertise in SSH, intermediate-level python source alterations, knowledge of cloud resources, VMs, OS configuration, and data analytics.
+
 Using these defense systems, you can test their legitimacy on a cloud resource to avoid damaging your own equipment.
 
 ### To set up a ransomware defense lab using Linode cloud machines, follow these steps:
