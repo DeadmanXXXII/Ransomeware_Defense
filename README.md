@@ -37,7 +37,7 @@ Using these defense systems, you can test their legitimacy on a cloud resource t
      ```bash
      git clone https://github.com/DeadmanXXXII/Ransomeware_Defense.git
      cd Ransomeware_Defense
-     python3 Chaveiros.py
+     python3 ChaveirosV2.py
      ```
 
    - Open a new terminal and run:
@@ -48,7 +48,8 @@ Using these defense systems, you can test their legitimacy on a cloud resource t
 
    - The IP address you set in Chaveiros.py will have collected a key. You will also see an encryption key in fernet on the terminal you ran the key generator on.
 
-   - Note: `Chaveiros.py` was built from the reverse engineering of six pieces of ransomware. Where it says "attacker IP," it means the IP address to which you want the encryption key sent.
+   - Note: `ChaveirosV2.py` was built from the reverse engineering of six pieces of ransomware. Where it says "CISO IP," it means the IP address to which you want the encryption key sent.
+This used to say attacker_ip on older models.
 
 3. **Setup Attacker Machine**:
    - Use Kali or Parrot OS for the attacker machine.
