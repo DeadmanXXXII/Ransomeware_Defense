@@ -3,7 +3,7 @@
 Using the ransomware defense repository you can test it is configured correctly on your systems in a non-intrusive way.
 
 Step 1:
-Run ChaveirosV1.py on your systems
+Run ChaveirosV2.py on your systems
 
 Step 2:
 In the ransomware defense repository there is the Labyrinth_keys_generatorV6.py this is the encryption key generator for labyrinth which uses fernet encryption. Chaveiros.py is programmed to catch fernet keys.
