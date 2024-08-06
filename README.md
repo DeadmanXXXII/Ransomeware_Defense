@@ -9,8 +9,8 @@
     - Set the `CISO_IP` and `desired_port` variables to match the IP address and port of the machine going to be running `Listen-In.py`.
 
     ```python
-    attacker_ip = 'CISO_machine_IP'  # Replace with the IP address of the CISO machine
-    attacker_port = 12345            # Replace with the port used by Listen-In.py
+    CISO_ip = 'CISO_machine_IP'  # Replace with the IP address of the CISO machine
+    desired_port = 12345            # Replace with the port used by Listen-In.py
     ```
 
 2. **Run `ChaveirosV2.py`:**
