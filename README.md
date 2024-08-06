@@ -1,4 +1,22 @@
-## Ransomware Defense Lab 1
+## Ransomware Defense lab 1
+
+Using the ransomware defense repository you can test it is configured correctly on your systems in a non-intrusive way.
+
+Step 1:
+Run ChaveirosV1.py on your systems
+
+Step 2:
+In the ransomware defense repository there is the Labyrinth_keys_generatorV6.py this is the encryption key generator for labyrinth which uses fernet encryption. Chaveiros.py is programmed to catch fernet keys.
+
+Step 3:
+Run Labyrinth_keys_generatorV6.py to create the fernet key.
+
+Step 4:
+On the system you are running these go back to the terminal Chaveiros.py is running and you should see the same key displayed in the terminal.
+
+
+
+## Ransomware Defense Lab 2
 
 Our custom, unique, and awesome Ransomware defense lab is now live
 
