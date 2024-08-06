@@ -12,7 +12,7 @@ Step 3:
 Run Labyrinth_keys_generatorV6.py to create the fernet key.
 
 Step 4:
-On the system you are running these go back to the terminal Chaveiros.py is running and you should see the same key displayed in the terminal.
+On the system you are running these go back to the terminal designated as the CISO IP in ChaveirosV2.py is running and you should see the same key displayed in the terminal.
 
 
 
