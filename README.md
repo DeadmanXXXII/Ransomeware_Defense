@@ -6,7 +6,7 @@
 
 1. **Prepare `ChaveirosV2.py`:**
     - Open the `ChaveirosV2.py` script in a text editor.
-    - Set the `attacker_ip` and `attacker_port` variables to match the IP address and port of the machine running `Listen-In.py`.
+    - Set the `CISO_IP` and `desired_port` variables to match the IP address and port of the machine going to be running `Listen-In.py`.
 
     ```python
     attacker_ip = 'CISO_machine_IP'  # Replace with the IP address of the CISO machine
