@@ -6,13 +6,18 @@ Step 1:
 Run ChaveirosV2.py on your systems
 
 Step 2:
-In the ransomware defense repository there is the Labyrinth_keys_generatorV6.py this is the encryption key generator for labyrinth which uses fernet encryption. Chaveiros.py is programmed to catch fernet keys.
+On the system designated as the CISO IP and desired port run the script Listen-In.py with the said port delegated.
+
+Step 2:
+In the ransomware defense repository there is the Labyrinth_keys_generatorV6.py this is the encryption key generator for labyrinth which uses fernet encryption. ChaveirosV2.py is programmed to catch fernet keys.
 
 Step 3:
 Run Labyrinth_keys_generatorV6.py to create the fernet key.
 
 Step 4:
-On the system you are running these go back to the terminal designated as the CISO IP in ChaveirosV2.py is running and you should see the same key displayed in the terminal.
+On the system you are running Listen-In.py go back to the terminal designated as the CISO IP in ChaveirosV2.py and you should see the same key displayed in the terminal.
+
+All those need to run is python3 script-name.py
 
 
 
