@@ -48,6 +48,7 @@ syslog/log_sender.py
 
 Python script to send logs to Syslog:
 
+```python
 import logging
 import logging.handlers
 import time
@@ -70,6 +71,7 @@ if __name__ == "__main__":
     while True:
         log_kernel_event("Encryption key created.")
         time.sleep(10)  # Log every 10 seconds
+```
 
 2. ELK Stack Configuration
 
@@ -77,6 +79,7 @@ elk/logstash/logstash.conf
 
 Logstash configuration to receive logs:
 
+```json
 input {
     syslog {
         port => 514
@@ -93,6 +96,7 @@ output {
         index => "kernel-logs-%{+YYYY.MM.dd}"
     }
 }
+```
 
 3. Graylog Configuration
 
@@ -110,6 +114,7 @@ graylog/log_sender.py
 
 Similar to the Syslog sender, configure to send logs to Graylog:
 
+```python
 import logging
 import logging.handlers
 
@@ -129,6 +134,7 @@ if __name__ == "__main__":
     while True:
         log_kernel_event("Encryption key created.")
         time.sleep(10)
+```
 
 4. Kernel Logging Script
 
@@ -136,6 +142,7 @@ kernel_log_script.py
 
 This script will call the logging functions:
 
+```python
 import time
 import syslog
 
@@ -146,11 +153,13 @@ if __name__ == "__main__":
     while True:
         log_kernel_event("Encryption key created.")
         time.sleep(10)  # Adjust the frequency as needed
+```
 
 5. README.md
 
 Include instructions for setup and configuration:
 
+```markdown
 # Kernel Log Viewer Project
 
 ## Overview
@@ -178,15 +187,13 @@ This project implements remote kernel log viewing using Syslog, ELK Stack, and G
 
 4. **Kernel Logging**:
    - Run `kernel_log_script.py` to log kernel events.
+```
 
-Additional Notes
+Additional Notes:
 
 Adjust server addresses and ports as needed in the scripts and configurations.
 
 Ensure all required services (Syslog, ELK, Graylog) are properly installed and configured on your server.
 
 Test the entire setup to ensure logs are being collected and viewed correctly in your chosen solution.
-
-
-If you need further customization or additional features, feel free to ask!
 
