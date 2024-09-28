@@ -1,22 +1,35 @@
 Project Layout
 
 kernel-log-viewer/
+
 │
 ├── syslog/
+
 │   ├── syslog_config.conf
+
 │   └── log_sender.py
+
 │
+
 ├── elk/
+
 │   ├── logstash/
+
 │   │   └── logstash.conf
+
 │   ├── elasticsearch/
+
 │   └── kibana/
 │
 ├── graylog/
+
 │   ├── graylog_input.conf
+
 │   └── log_sender.py
+
 │
 ├── kernel_log_script.py
+
 └── README.md
 
 1. Syslog Configuration
