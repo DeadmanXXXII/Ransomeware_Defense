@@ -79,7 +79,7 @@ elk/logstash/logstash.conf
 
 Logstash configuration to receive logs:
 
-```json
+```dsl
 input {
     syslog {
         port => 514
@@ -104,11 +104,13 @@ graylog/graylog_input.conf
 
 Graylog configuration for Syslog input:
 
+```dsl
 # Create a Syslog input in Graylog web interface
 # Configuration in the UI should include: 
 # - Title: Syslog Input
 # - Port: 514
 # - Type: Syslog UDP
+```
 
 graylog/log_sender.py
 
