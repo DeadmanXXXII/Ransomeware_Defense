@@ -3,6 +3,7 @@ Project Layout
 kernel-log-viewer/
 
 │
+
 ├── syslog/
 
 │   ├── syslog_config.conf
@@ -20,7 +21,9 @@ kernel-log-viewer/
 │   ├── elasticsearch/
 
 │   └── kibana/
+
 │
+
 ├── graylog/
 
 │   ├── graylog_input.conf
@@ -28,6 +31,7 @@ kernel-log-viewer/
 │   └── log_sender.py
 
 │
+
 ├── kernel_log_script.py
 
 └── README.md
